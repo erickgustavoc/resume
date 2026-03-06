@@ -1,61 +1,104 @@
 body{
 
-font-family: 'Inter', sans-serif;
+font-family:'Inter',sans-serif;
 
 margin:0;
 
-line-height:1.7;
+background:#ffffff;
 
 color:#222;
+
+line-height:1.7;
+
+}
+
+
+body.dark{
+
+background:#0f172a;
+
+color:#e5e7eb;
+
+}
+
+
+
+header{
+
+width:100%;
+
+border-bottom:1px solid #e5e7eb;
+
+background:white;
+
+}
+
+body.dark header{
+
+background:#0f172a;
+
+border-color:#334155;
+
+}
+
+
+nav{
 
 max-width:900px;
 
 margin:auto;
 
-padding:40px;
-
-background:#fafafa;
-
-}
-
-
-header{
-
-margin-bottom:40px;
-
-}
-
-
-nav ul{
-
 display:flex;
 
-gap:25px;
+justify-content:space-between;
 
-list-style:none;
-
-padding:0;
+padding:15px;
 
 }
 
 
 nav a{
 
+margin-right:18px;
+
 text-decoration:none;
 
-color:#333;
+color:#555;
 
 font-weight:500;
 
 }
 
-
 nav a:hover{
 
-color:#0077cc;
+color:#2563eb;
 
 }
 
+
+#theme-toggle{
+
+background:none;
+
+border:none;
+
+font-size:18px;
+
+cursor:pointer;
+
+}
+
+
+
+.container{
+
+max-width:900px;
+
+margin:auto;
+
+padding:40px 20px;
+
+}
 
 
 .hero{
@@ -73,9 +116,18 @@ margin-bottom:40px;
 
 .profile{
 
-width:140px;
+width:120px;
 
 border-radius:50%;
+
+}
+
+
+h1{
+
+margin:0;
+
+font-size:30px;
 
 }
 
@@ -84,15 +136,7 @@ border-radius:50%;
 
 color:#666;
 
-margin-top:-10px;
-
-}
-
-
-
-.links{
-
-margin-top:10px;
+margin-bottom:10px;
 
 }
 
@@ -103,109 +147,35 @@ margin-right:12px;
 
 font-size:20px;
 
-color:#444;
+color:#555;
 
 }
-
 
 .links a:hover{
 
-color:#0077cc;
-
-}
-
-
-
-.cv{
-
-display:inline-block;
-
-margin-top:12px;
-
-padding:6px 12px;
-
-border:1px solid #333;
-
-text-decoration:none;
-
-font-size:14px;
-
-color:#333;
-
-}
-
-
-.cv:hover{
-
-background:#333;
-
-color:white;
-
-}
-
-
-
-section{
-
-margin-bottom:40px;
+color:#2563eb;
 
 }
 
 
 h2{
 
+margin-top:50px;
+
 font-size:22px;
-
-margin-bottom:15px;
-
-}
-
-
-h3{
-
-margin-top:25px;
 
 }
 
 
 ul{
 
-padding-left:20px;
+padding-left:18px;
 
 }
 
 
-li{
+.pubs li{
 
-margin-bottom:10px;
-
-}
-
-
-a{
-
-color:#0077cc;
-
-text-decoration:none;
-
-}
-
-
-a:hover{
-
-text-decoration:underline;
-
-}
-
-
-footer{
-
-margin-top:60px;
-
-font-size:14px;
-
-color:#777;
-
-text-align:center;
+margin-bottom:12px;
 
 }
