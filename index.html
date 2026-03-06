@@ -1,127 +1,100 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-
 <meta charset="UTF-8">
 <title>Erick Gustavo Chuquichambi</title>
 
 <link rel="stylesheet" href="style.css">
 
-<link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 </head>
+
 
 <body>
 
-
 <header>
-
 <nav>
 
-<ul>
+<div class="nav-left">
+<a href="#about">About</a>
+<a href="#research">Research</a>
+<a href="#education">Education</a>
+<a href="#publications">Publications</a>
+<a href="#posts">Posts</a>
+<a href="#contact">Contact</a>
+</div>
 
-<li><a href="#about">About</a></li>
-<li><a href="#research">Research</a></li>
-<li><a href="#education">Education</a></li>
-<li><a href="#publications">Publications</a></li>
-<li><a href="#presentations">Presentations</a></li>
-<li><a href="#posts">Posts</a></li>
-<li><a href="#contact">Contact</a></li>
-
-</ul>
+<button id="theme-toggle">
+<i class="fa-solid fa-moon"></i>
+</button>
 
 </nav>
-
 </header>
 
 
+<div class="container">
+
 <section class="hero">
 
-<img src="images/photo.jpg" class="profile">
+<img src="images/foto.jpg" class="profile">
 
-
-<div class="hero-text">
+<div>
 
 <h1>Erick Gustavo Chuquichambi</h1>
 
 <p class="subtitle">
-Associate Professor — Perception, Neuroaesthetics & Multisensory Experience
+Associate Professor — University of the Balearic Islands
 </p>
-
 
 <div class="links">
 
-<a href="#"><i class="fas fa-envelope"></i></a>
+<a href="mailto:your@email.com"><i class="fa-solid fa-envelope"></i></a>
 
-<a href="#"><i class="fab fa-google"></i></a>
+<a href="#"><i class="fa-brands fa-google-scholar"></i></a>
 
-<a href="#"><i class="fab fa-orcid"></i></a>
+<a href="#"><i class="fa-brands fa-orcid"></i></a>
 
-<a href="#"><i class="fab fa-researchgate"></i></a>
+<a href="#"><i class="fa-brands fa-researchgate"></i></a>
 
-<a href="#"><i class="fas fa-globe"></i></a>
+<a href="#"><i class="fa-solid fa-globe"></i></a>
 
 </div>
-
-
-<a class="cv" href="#">Download CV</a>
 
 </div>
 
 </section>
-
 
 
 <section id="about">
 
 <h2><i class="fa-solid fa-user"></i> About</h2>
 
-<p>
-Hello!
-</p>
+<p>Hello! I am a tenured Associate Professor in the Department of Psychology at the University of the Balearic Islands. I am a member of the Human Cognition and Evolution group (EvoCog) and the Active Cognition, Embodiment & Environment Lab (ACE2Lab).</p>
 
-<p>
-I am a tenured Associate Professor in the Department of Psychology at the University of the Balearic Islands. 
-I am a member of the Human Cognition and Evolution group (EvoCog) and the Active Cognition, Embodiment & Environment Lab (ACE2Lab).
-</p>
+<p>I did my PhD in Human Cognition and Evolution and completed my postdoc at the University of the Balearic Islands. I have been a visiting researcher at Liverpool Hope University (2021), University of Padova (2022), BI Norwegian Business School (2023–2024), and University of Toronto (2024).</p>
 
-<p>
-I did my PhD in Human Cognition and Evolution and completed my postdoc at the University of the Balearic Islands. 
-I have been a visiting researcher at Liverpool Hope University (2021), University of Padova (2022), BI Norwegian Business School (2023–2024), 
-and University of Toronto (2024).
-</p>
-
-<p>
-My research focuses on the psychological and neural bases of visual preferences in collaboration with the University of Toronto, 
-and multisensory experiences in partnership with the Centre for Multisensory Marketing at BI Norwegian Business School.
-</p>
+<p>My research focuses on the psychological and neural bases of visual preferences and multisensory experiences.</p>
 
 </section>
-
 
 
 <section id="research">
 
-<h2><i class="fa-solid fa-brain"></i> Research</h2>
+<h2><i class="fa-solid fa-brain"></i> Research interests</h2>
 
 <ul>
-
 <li>Neuroaesthetics</li>
-
 <li>Multisensory Experiences</li>
-
 <li>Visual Perception</li>
-
 <li>Liking & Wanting</li>
-
 </ul>
 
 </section>
-
 
 
 <section id="education">
@@ -131,22 +104,22 @@ and multisensory experiences in partnership with the Centre for Multisensory Mar
 <ul>
 
 <li>
-<strong>PhD in Human Cognition and Evolution</strong> — 2023  
+PhD in Human Cognition and Evolution — 2023<br>
 University of the Balearic Islands
 </li>
 
 <li>
-<strong>Master's degree in Big Data and Data Science</strong> — 2023  
+Master's degree in Big Data and Data Science — 2023<br>
 National Distance Education University
 </li>
 
 <li>
-<strong>Master's degree in Human Cognition and Evolution</strong> — 2018  
+Master's degree in Human Cognition and Evolution — 2018<br>
 University of the Balearic Islands
 </li>
 
 <li>
-<strong>Degree in Psychology</strong> — 2017  
+Degree in Psychology — 2017<br>
 University of the Balearic Islands
 </li>
 
@@ -160,273 +133,66 @@ University of the Balearic Islands
 
 <h2><i class="fa-solid fa-book"></i> Publications</h2>
 
-<h3>2026</h3>
+<ul class="pubs">
 
-<ul>
+<li><b>Chuquichambi, E. G.</b> et al. (2026). Curved background and foreground elements enhance the appeal of indoor spaces. <i>Journal of Environmental Psychology</i>, 104. <a href="https://doi.org/10.1016/j.jenvp.2026.102974">DOI</a></li>
 
-<li>
-<strong>Chuquichambi, E. G.</strong>, Damiano, C., Wei, N., Meletaki, V., Bruce, K., Chatterjee, A., Skov, M., & Walther, D. B. (2026). 
-Curved background and foreground elements enhance the appeal of indoor spaces. 
-<em>Journal of Environmental Psychology, 104</em>.  
-DOI: <a href="https://doi.org/10.1016/j.jenvp.2026.102974">10.1016/j.jenvp.2026.102974</a>
-</li>
+<li>Wei, N., <b>Chuquichambi, E. G.</b> et al. (2026). A Design-Integrated Framework for Neuroarchitectural Research. <i>Frontiers in Psychology</i>. <a href="https://doi.org/10.3389/fpsyg.2026.1666480">DOI</a></li>
 
-<li>
-Wei, N., <strong>Chuquichambi, E. G.</strong>, Damiano, C., Bruce, K., & Walther, D. B. (2026). 
-A Design-Integrated Framework for Neuroarchitectural Research. 
-<em>Frontiers in Psychology, 17</em>.  
-DOI: <a href="https://doi.org/10.3389/fpsyg.2026.1666480">10.3389/fpsyg.2026.1666480</a>
-</li>
+<li>Tabassum, F., <b>Chuquichambi, E. G.</b> et al. (2025). How stable are taste-shape crossmodal correspondences over time? <i>Quarterly Journal of Experimental Psychology</i>. <a href="https://doi.org/10.1177/17470218241307929">DOI</a></li>
 
-</ul>
+<li><b>Chuquichambi, E. G.</b> et al. (2025). Taste–Shape Correspondences and Product Preference. <i>Multisensory Research</i>. <a href="https://doi.org/10.1163/22134808-bja10144">DOI</a></li>
 
+<li>Pimentel, O., <b>Chuquichambi, E. G.</b> et al. (2025). The diatonic sound of scent imagery. <i>Perception</i>. <a href="https://doi.org/10.1177/03010066251342011">DOI</a></li>
 
-<h3>2025</h3>
+<li><b>Chuquichambi, E. G.</b> et al. (2025). Reassessing the curvature effect in tables and chairs. <i>i-Perception</i>. <a href="https://doi.org/10.1177/20416695251341682">DOI</a></li>
 
-<ul>
+<li><b>Chuquichambi, E. G.</b> et al. (2024). Individual differences in sensitivity to taste-shape crossmodal correspondences. <i>Food Quality and Preference</i>. <a href="https://doi.org/10.1016/j.foodqual.2024.105110">DOI</a></li>
 
-<li>
-Tabassum, F., <strong>Chuquichambi, E. G.</strong>, Spence, C., Munar, E., & Velasco, C. (2025). 
-How stable are taste-shape crossmodal correspondences over time? 
-<em>Quarterly Journal of Experimental Psychology, 78</em>.  
-DOI: <a href="https://doi.org/10.1177/17470218241307929">10.1177/17470218241307929</a>
-</li>
+<li><b>Chuquichambi, E. G.</b> et al. (2023). Humans prefer to see and imagine drawing curved objects. <i>Empirical Studies of the Arts</i>. <a href="https://doi.org/10.1177/02762374221084212">DOI</a></li>
 
-<li>
-<strong>Chuquichambi, E. G.</strong>, Veflen, N., Munar, E., & Velasco, C. (2025). 
-The Role of Taste–Shape Correspondences and Semantic Congruence in Product Preference and Taste Expectations. 
-<em>Multisensory Research, 38</em>.  
-DOI: <a href="https://doi.org/10.1163/22134808-bja10144">10.1163/22134808-bja10144</a>
-</li>
+<li><b>Chuquichambi, E. G.</b> et al. (2022). How universal is preference for visual curvature? <i>Annals of the New York Academy of Sciences</i>. <a href="https://doi.org/10.1111/nyas.14919">DOI</a></li>
 
-<li>
-Pimentel, O., <strong>Chuquichambi, E. G.</strong>, Spence, C., & Velasco, C. (2025). 
-The diatonic sound of scent imagery. 
-<em>Perception, 54</em>.  
-DOI: <a href="https://doi.org/10.1177/03010066251342011">10.1177/03010066251342011</a>
-</li>
+<li><b>Chuquichambi, E. G.</b> et al. (2021). Shape familiarity modulates preference for curvature. <i>PeerJ</i>. <a href="https://doi.org/10.7717/peerj.11772">DOI</a></li>
 
-<li>
-<strong>Chuquichambi, E. G.</strong>, Trawinski, T., Munar, E., & Palumbo, L. (2025). 
-Reassessing the curvature effect in tables and chairs. 
-<em>i-Perception, 16</em>.  
-DOI: <a href="https://doi.org/10.1177/20416695251341682">10.1177/20416695251341682</a>
-</li>
+<li><b>Chuquichambi, E. G.</b> et al. (2021). Symmetric and curved contour preferences. <i>Quarterly Journal of Experimental Psychology</i>. <a href="https://doi.org/10.1177/17470218211021593">DOI</a></li>
 
-<li>
-Munar, E., <strong>Chuquichambi, E. G.</strong>, Ruta, N., Dorado, A., Rey, C., & Pepperell, R. (2025). 
-Preference for curvature in paintings extends to museum context. 
-<em>Psychology of Aesthetics, Creativity, and the Arts, 19</em>.  
-DOI: <a href="https://doi.org/10.1037/aca0000601">10.1037/aca0000601</a>
-</li>
+<li><b>Chuquichambi, E. G.</b> et al. (2020). Circles are detected faster than triangles. <i>Perception</i>. <a href="https://doi.org/10.1177/0301006620957472">DOI</a></li>
 
-</ul>
+<li>Olivera-La Rosa, A., <b>Chuquichambi, E. G.</b> et al. (2024). Trustworthiness judgments in dating interfaces. <i>Canadian Journal of Behavioural Science</i>. <a href="https://doi.org/10.1037/cbs0000423">DOI</a></li>
 
+<li>Ingram, G. P., <b>Chuquichambi, E. G.</b> et al. (2024). In masks we trust. <i>BMC Psychology</i>. <a href="https://doi.org/10.1186/s40359-024-01556-5">DOI</a></li>
 
-<h3>2024</h3>
+<li>Munar, E., <b>Chuquichambi, E. G.</b> et al. (2025). Curvature preference in museum context. <i>Psychology of Aesthetics, Creativity, and the Arts</i>. <a href="https://doi.org/10.1037/aca0000601">DOI</a></li>
 
-<ul>
+<li>Ruta, N., <b>Chuquichambi, E. G.</b> et al. (2023). Curvature effects in paintings. <i>Psychology of Aesthetics, Creativity, and the Arts</i>. <a href="https://doi.org/10.1037/aca0000395">DOI</a></li>
 
-<li>
-<strong>Chuquichambi, E. G.</strong>, Munar, E., Spence, C., & Velasco, C. (2024). 
-Individual differences in sensitivity to taste-shape crossmodal correspondences. 
-<em>Food Quality and Preference, 115</em>.  
-DOI: <a href="https://doi.org/10.1016/j.foodqual.2024.105110">10.1016/j.foodqual.2024.105110</a>
-</li>
+<li>Olivera-La Rosa, A., <b>Chuquichambi, E. G.</b> et al. (2023). Callous-unemotional traits and violence attitudes. <i>Healthcare</i>. <a href="https://doi.org/10.3390/healthcare11101445">DOI</a></li>
 
-<li>
-Olivera-La Rosa, A., <strong>Chuquichambi, E. G.</strong>, & Ingram, G. P. (2024). 
-An Experimental Study on the Role of Sociosexuality in Judgements of Perceived Trustworthiness in a Mobile Dating-Like Interface. 
-<em>Canadian Journal of Behavioural Science</em>.  
-DOI: <a href="https://doi.org/10.1037/cbs0000423">10.1037/cbs0000423</a>
-</li>
+<li>Olivera-La Rosa, A., <b>Chuquichambi, E. G.</b> et al. (2021). The “Joker” laugh. <i>Personality and Individual Differences</i>. <a href="https://doi.org/10.1016/j.paid.2021.111148">DOI</a></li>
 
-<li>
-Ingram, G. P., <strong>Chuquichambi, E. G.</strong>, Jimenez-Leal, W., & Rosa, A. O. L. (2024). 
-In masks we trust: explicit and implicit reactions to masked faces vary by political orientation. 
-<em>BMC Psychology, 12</em>.  
-DOI: <a href="https://doi.org/10.1186/s40359-024-01556-5">10.1186/s40359-024-01556-5</a>
-</li>
+<li>Pich, J., <b>Chuquichambi, E. G.</b> et al. (2020). Taste-shape correspondences. <i>Food Quality and Preference</i>. <a href="https://doi.org/10.1016/j.foodqual.2020.103891">DOI</a></li>
 
-</ul>
+<li>Corradi, G., <b>Chuquichambi, E. G.</b> et al. (2020). Visual aesthetic sensitivity. <i>British Journal of Psychology</i>. <a href="https://doi.org/10.1111/bjop.12427">DOI</a></li>
 
+<li>Nadal, M., <b>Chuquichambi, E. G.</b> et al. (2020). Reply on aesthetic sensitivity. <i>British Journal of Psychology</i>. <a href="https://doi.org/10.1111/bjop.12443">DOI</a></li>
 
-<h3>2023</h3>
+<li>Olivera-La Rosa, A., <b>Chuquichambi, E. G.</b> et al. (2020). Social distance during COVID-19. <i>Personality and Individual Differences</i>. <a href="https://doi.org/10.1016/j.paid.2020.110200">DOI</a></li>
 
-<ul>
+<li>Corradi, G., <b>Chuquichambi, E. G.</b> et al. (2019). Presentation time and curvature preference. <i>British Journal of Psychology</i>. <a href="https://doi.org/10.1111/bjop.12367">DOI</a></li>
 
-<li>
-<strong>Chuquichambi, E. G.</strong>, Sarria, D., Corradi, G. B., & Munar, E. (2023). 
-Humans prefer to see and imagine drawing curved objects. 
-<em>Empirical Studies of the Arts, 41</em>.  
-DOI: <a href="https://doi.org/10.1177/02762374221084212">10.1177/02762374221084212</a>
-</li>
-
-<li>
-Ruta, N., Vañó, J., Pepperell, R., Corradi, G. B., <strong>Chuquichambi, E.</strong>, Rey, C., & Munar, E. (2023). 
-Preference for paintings is also affected by curvature. 
-<em>Psychology of Aesthetics, Creativity, and the Arts, 17</em>.  
-DOI: <a href="https://doi.org/10.1037/aca0000395">10.1037/aca0000395</a>
-</li>
-
-<li>
-Olivera-La Rosa, A., Amador, O., <strong>Chuquichambi, E. G.</strong>, Carmona-Cardona, C. A., et al. (2023). 
-Exploring the relationship between callous-unemotional traits and implicit attitudes toward violence. 
-<em>Healthcare, 11</em>.  
-DOI: <a href="https://doi.org/10.3390/healthcare11101445">10.3390/healthcare11101445</a>
-</li>
-
-</ul>
-
-
-<h3>2022</h3>
-
-<ul>
-
-<li>
-<strong>Chuquichambi, E. G.</strong>, Vartanian, O., Skov, M., Corradi, G. B., Nadal, M., Silvia, P. J., & Munar, E. (2022). 
-How universal is preference for visual curvature? A systematic review and meta-analysis. 
-<em>Annals of the New York Academy of Sciences, 1518</em>.  
-DOI: <a href="https://doi.org/10.1111/nyas.14919">10.1111/nyas.14919</a>
-</li>
-
-</ul>
-
-
-<h3>2021</h3>
-
-<ul>
-
-<li>
-<strong>Chuquichambi, E. G.</strong>, Palumbo, L., Rey, C., & Munar, E. (2021). 
-Shape familiarity modulates preference for curvature in drawings of common-use objects. 
-<em>PeerJ, 9</em>.  
-DOI: <a href="https://doi.org/10.7717/peerj.11772">10.7717/peerj.11772</a>
-</li>
-
-<li>
-<strong>Chuquichambi, E. G.</strong>, Corradi, G. B., Munar, E., & Rosselló-Mir, J. (2021). 
-When symmetric and curved visual contour meet intentional instructions. 
-<em>Quarterly Journal of Experimental Psychology, 74</em>.  
-DOI: <a href="https://doi.org/10.1177/17470218211021593">10.1177/17470218211021593</a>
-</li>
-
-<li>
-Olivera-La Rosa, A., <strong>Chuquichambi, E. G.</strong>, & Ingram, G. (2021). 
-The “Joker” laugh: Social judgments towards affective deviants. 
-<em>Personality and Individual Differences, 183</em>.  
-DOI: <a href="https://doi.org/10.1016/j.paid.2021.111148">10.1016/j.paid.2021.111148</a>
-</li>
-
-</ul>
-
-
-<h3>2020</h3>
-
-<ul>
-
-<li>
-<strong>Chuquichambi, E. G.</strong>, Rey, C., Llames, R., Escudero, J., Dorado, A., & Munar, E. (2020). 
-Circles are detected faster than downward-pointing triangles. 
-<em>Perception, 49</em>.  
-DOI: <a href="https://doi.org/10.1177/0301006620957472">10.1177/0301006620957472</a>
-</li>
-
-<li>
-Pich, J., <strong>Chuquichambi, E. G.</strong>, Blay, N. T., Corradi, G., & Munar, E. (2020). 
-Cross-modal correspondence between taste and shapes of cups. 
-<em>Food Quality and Preference, 83</em>.  
-DOI: <a href="https://doi.org/10.1016/j.foodqual.2020.103891">10.1016/j.foodqual.2020.103891</a>
-</li>
-
-<li>
-Corradi, G., <strong>Chuquichambi, E. G.</strong>, Barrada, J. R., Clemente, A., & Nadal, M. (2020). 
-A new conception of visual aesthetic sensitivity. 
-<em>British Journal of Psychology, 111</em>.  
-DOI: <a href="https://doi.org/10.1111/bjop.12427">10.1111/bjop.12427</a>
-</li>
-
-<li>
-Nadal, M., Corradi, G., Barrada, J., Clemente, A., & <strong>Chuquichambi, E. G.</strong> (2020). 
-Reply to Myszkowski et al. (2020). 
-<em>British Journal of Psychology, 111</em>.  
-DOI: <a href="https://doi.org/10.1111/bjop.12443">10.1111/bjop.12443</a>
-</li>
-
-<li>
-Olivera-La Rosa, A., <strong>Chuquichambi, E. G.</strong>, & Ingram, G. (2020). 
-Keep your (social) distance: Pathogen concerns and social perception in the time of COVID-19. 
-<em>Personality and Individual Differences, 166</em>.  
-DOI: <a href="https://doi.org/10.1016/j.paid.2020.110200">10.1016/j.paid.2020.110200</a>
-</li>
-
-</ul>
-
-
-<h3>2019</h3>
-
-<ul>
-
-<li>
-Corradi, G., Rosselló-Mir, J., Vañó, J., <strong>Chuquichambi, E.</strong>, Bertamini, M., & Munar, E. (2019). 
-The effects of presentation time on preference for curvature. 
-<em>British Journal of Psychology, 110</em>.  
-DOI: <a href="https://doi.org/10.1111/bjop.12367">10.1111/bjop.12367</a>
-</li>
-
-<li>
-Corradi, G., Belman, M., Currò, T., <strong>Chuquichambi, E. G.</strong>, Rey, C., & Nadal, M. (2019). 
-Aesthetic sensitivity to curvature. 
-<em>Acta Psychologica, 197</em>.  
-DOI: <a href="https://doi.org/10.1016/j.actpsy.2019.05.012">10.1016/j.actpsy.2019.05.012</a>
-</li>
+<li>Corradi, G., <b>Chuquichambi, E. G.</b> et al. (2019). Aesthetic sensitivity to curvature. <i>Acta Psychologica</i>. <a href="https://doi.org/10.1016/j.actpsy.2019.05.012">DOI</a></li>
 
 </ul>
 
 </section>
-
-
-
-<section id="presentations">
-
-<h2><i class="fa-solid fa-microphone"></i> Presentations</h2>
-
-<ul>
-
-<li>
-Talk at Iberian Congress of Perception (CIP2026), Palma de Mallorca
-</li>
-
-<li>
-Research presentation at University of Toronto
-</li>
-
-<li>
-Seminar at BI Norwegian Business School
-</li>
-
-</ul>
-
-</section>
-
 
 
 <section id="posts">
 
 <h2><i class="fa-solid fa-pen"></i> Posts</h2>
 
-<ul>
-
-<li>
-March 2026 — Our article on curvature in interiors is now published in 
-<em>Journal of Environmental Psychology</em>.
-</li>
-
-<li>
-February 2026 — Early-bird registration open for the Iberian Congress of Perception.
-</li>
-
-</ul>
+<p>Short updates, links to papers, conference announcements, or research notes will appear here.</p>
 
 </section>
 
@@ -436,21 +202,37 @@ February 2026 — Early-bird registration open for the Iberian Congress of Perce
 
 <h2><i class="fa-solid fa-envelope"></i> Contact</h2>
 
-<p>Email: gustavo.uib@gmail.com</p>
+<p>
+
+Department of Psychology<br>
+University of the Balearic Islands<br><br>
+
+Palma, Mallorca, Balearic Islands<br>
+
+Office 229<br>
+Margalida Comas i Camps Building (Campus UIB)
+
+</p>
 
 </section>
 
 
+</div>
 
-<footer>
 
-<p>
-© 2026 EG
-</p>
 
-</footer>
+<script>
+
+const toggle = document.getElementById("theme-toggle")
+
+toggle.onclick = () => {
+
+document.body.classList.toggle("dark")
+
+}
+
+</script>
 
 
 </body>
-
 </html>
