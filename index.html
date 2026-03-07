@@ -7,6 +7,7 @@
 <title>Erick Gustavo Chuquichambi</title>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="icon" href="favicon.ico">
 
 <style>
 
@@ -190,6 +191,7 @@ grid-template-columns:1fr;
 <a href="#publications">Publications</a>
 <a href="#posts">Posts</a>
 <a href="#contact">Contact</a>
+<button id="theme-toggle">🌙</button>
 </nav>
 </header>
 
@@ -205,19 +207,19 @@ grid-template-columns:1fr;
 
 <div class="links">
 
-<a href="https://scholar.google.es/citations?user=5xZciSUAAAAJ&hl=es&oi=ao">
+<a href="https://scholar.google.es/citations?user=5xZciSUAAAAJ&hl=es&oi=ao" target="_blank">
 <i class="fa-brands fa-google-scholar"></i>
 </a>
 
-<a href="https://orcid.org/0000-0001-5389-283X">
+<a href="https://orcid.org/0000-0001-5389-283X" target="_blank">
 <i class="fa-brands fa-orcid"></i>
 </a>
 
-<a href="https://www.researchgate.net/profile/Erick-Chuquichambi?ev=hdr_xprf">
+<a href="https://www.researchgate.net/profile/Erick-Chuquichambi?ev=hdr_xprf" target="_blank">
 <i class="fa-brands fa-researchgate"></i>
 </a>
 
-<a href="mailto:gustavo.uib@gmail.com">
+<a href="mailto:gustavo.uib@gmail.com" target="_blank">
 <i class="fa-solid fa-envelope"></i>
 </a>
 
@@ -233,6 +235,7 @@ grid-template-columns:1fr;
 
 <p>
 Hello!
+
 
 I am a tenured Associate Professor in the Department of Psychology at the University of the Balearic Islands (UIB). I am a member of the Human Cognition and Evolution group (EvoCog) and the Active Cognition, Embodiment & Environment Lab (ACE2Lab).
 
@@ -392,10 +395,15 @@ Degree in Psychology, UIB (2017)
 </div>
 
 <script>
-
 const pubs=document.querySelectorAll(".pub").length
 document.getElementById("count").innerText=pubs
 
+const toggle = document.getElementById("theme-toggle");
+const body = document.body;
+
+toggle.addEventListener("click", () => {
+  body.classList.toggle("dark-mode");
+});
 </script>
 
 </body>
