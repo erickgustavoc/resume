@@ -176,12 +176,12 @@ grid-template-columns:1fr;
 }
 }
 
-.dark {
+.dark-mode {
   background-color: #111;
   color: #e6e6e6;
 }
 
-.dark a {
+.dark-mode a {
   color: #8ab4f8;
 }
 
