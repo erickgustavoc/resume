@@ -195,3 +195,12 @@ grid-template-columns:1fr;
   cursor: pointer;
 }
   
+.edu div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.edu span {
+  color: #777;
+}
